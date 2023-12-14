@@ -1,27 +1,36 @@
-# Starbucks
+# Starbucks Frontend - Prueba Técnica
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+Este proyecto es un frontend de prueba técnica de Starbucks construido con Angular y estilizado utilizando Tailwind CSS.
 
-## Development server
+## Configuración del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Asegúrate de tener Node.js y npm instalados en tu máquina antes de comenzar.
 
-## Code scaffolding
+1. **Clona el Repositorio:**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   - `git clone https://github.com/tu-usuario/starbucks-frontend.git`
+   - `cd starbucks-frontend`
+2. **Instala las Dependencias:**
 
-## Build
+   - `npm install`
+3. **Inicia el Servidor de Desarrollo:**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   - `ng serve`
 
-## Running unit tests
+   Visita `http://localhost:4200/` en tu navegador para ver la aplicación.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Estructura del Proyecto
 
-## Running end-to-end tests
+- **src/app:** Contiene los componentes principales de la aplicación.
+- **src/assets:** Almacena recursos estáticos como imágenes y archivos de estilo.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Tecnologías Utilizadas
 
-## Further help
+- **Angular:** El framework principal utilizado para construir la aplicación.
+- **Tailwind CSS:** Una herramienta de estilización utilizable directamente en HTML, permitiendo un diseño rápido y personalizable.
+- **Otros:** Angular CLI, npm, Node.js, etc.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Características
+
+- **Navegación:** Navega por las diferentes secciones de la aplicación como el menú, novedades, contacto, etc.
+- **Interactividad:** Añade interactividad con Angular para una experiencia de usuario mejorada.
